@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Roboto:ital,wght@1,100&display=swap');
+
+body {
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-pizarra-helado-dibujado-mano_23-2148989213.jpg?w=740&t=st=1697333843~exp=1697334443~hmac=56218a9510217c643cca8d307d67f6d64605e18c9a495301f2ac45cd6117698d);
+}
+
+.navbar {
+    display: flex;
+    border-bottom: 3px solid rgb(40, 40, 82);
+    margin-bottom: 10 px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.botones {
+    flex-direction: column;
+}
+
+#logo {
+    height: 200px;
+}
+
+.caratula img {
+    width: 100%;
+}
+
+.boton {
+    background-color: rgb(40, 40, 82);
+    margin: 15px;
+    border: 2px rgb(40, 40, 82);
+    border-radius: 10px;
+    height: 70px;
+    width: 150px;
+    font-size: 25px;
+    text-align: center;
+}
+
+a {
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    display: inline-flex;
+}
+
+footer li img {
+    background-color: rgb(40, 40, 82);
+    margin: 15px;
+    border: 2px rgb(40, 40, 82);
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(40, 40, 82);
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+main h1 {
+    text-align: center;
+}
+
+h2 {
+    margin: 8px;
+    text-align: center;
+}
+
+p {
+    margin: 5px;
+}
+
+.datos_locales {
+    flex-direction: column;
+}
+
+.mapas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.datos_locales {
+    text-align: center;
+}
+
+.datos_locales p{
+    font-size: 13px;
+}
+
+.datos_locales h4{
+    text-decoration: underline;
+}
+#sobre_nosotros { 
+    display: flex; 
+} 
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.productos p {
+    text-align: center;
+}
