@@ -5,74 +5,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helados Premiere - Inicio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 <body>
-    <header class="navbar">
-        <div class="botones">
-            <nav class="boton">
-                <a href="html/sobre_nosotros.html">
-                    <p>Sobre Nosotros</p>
-                </a>
-            </nav>
-
-            <nav class="boton">
-                <a href="html/nuestros_locales.html">
-                    <p>Nuestros Locales</p>
-                </a>
-            </nav>
+    <header class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/LOGO.png" alt="Logo" width="30" height="24"
+                    class="d-inline-block align-text-top">Helados Supreme</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="html/sobre_nosotros.html">Sobre Nosotros</a>
+                    <a class="nav-link" href="html/nuestros_locales.html">Nuestros Locales</a>
+                    <a class="nav-link" href="html/productos.html">Productos</a>
+                    <a class="nav-link" href="html/faq.html">FAQ</a>
+                </div>
+            </div>
         </div>
-        <img id="logo" src="images/LOGO.png" alt="Logotipo de Helados Supreme">
-        <div class="botones">
-            <nav class="boton">
-                <a href="html/productos.html">
-                    <p>Sabores Disponibles</p>
-                </a>
-            </nav>
-
-            <nav class="boton">
-                <a href="html/faq.html">
-                    <p>Preguntas Frecuentes</p>
-                </a>
-            </nav>
-        </div>
-
     </header>
-<main>
-    <h1>¡Bienvenidos!</h1>
-    <div class="caratula">
-        <img src="images/caratula.jpg"
-            alt="Imagen de Helados">
-    </div>
-</main>
-
-    <footer>
-        <ul>
-            <li>
-                <a href="https:/www.facebook.com" target="_blank">
-                    <img src="images/Facebook_logo.png" alt="Logotipo Facebook" />
-                </a>
-            </li>
-            <li>
-                <a href="https:/www.instagram.com" target="_blank">
-                    <img src="images/Instagram_logo.png" alt="Logotipo Instagram" />
-                </a>
-            </li>
-            <li>
-                <a href="https:/www.tiktok.com" target="_blank">
-                    <img src="images/Tiktok_logo.png" alt="Logotipo Tik Tok" />
-                </a>
-            </li>
-        </ul>
-        <div class="boton">
-            <a href="html/contacto.html">
-                <p>Contacto</p>
-            </a>
+    <main>
+        <h1>¡Bienvenidos!</h1>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/caratula.jpg" class="d-block w-100" alt="Imágen de Helado">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/caratula2.jpg" class="d-block w-100" alt="Imágen de Helado">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/caratula3.jpg" class="d-block w-100" alt="Imágen de Helado">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/caratula4.jpg" class="d-block w-100" alt="Imágen de Helado">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </main>
+    <div>
+        <footer>
+            <ul>
+                <li>
+                    <a href="https:/www.facebook.com" target="_blank">
+                        <img class="rrss" src="images/Facebook_logo.png" alt="Logotipo Facebook" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https:/www.instagram.com" target="_blank">
+                        <img class="rrss" src="images/Instagram_logo.png" alt="Logotipo Instagram" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https:/www.tiktok.com" target="_blank">
+                        <img class="rrss" src="images/Tiktok_logo.png" alt="Logotipo Tik Tok" />
+                    </a>
+                </li>
+                <li>
+                    <a href="html/contacto.html">
+                        <img class="rrss" src="images/contacto.png" alt="Logotipo de Sobre" />
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
