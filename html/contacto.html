@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helados Premiere - Contacto</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
 <body>
-    <header class="navbar navbar-expand-lg bg-body-tertiary">
+    <header class="contactoHeader navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">
                 <img src="../images/LOGO.png" alt="Logo" width="30" height="24"
@@ -30,24 +31,33 @@
         </div>
     </header>
 
-    <main>
-        <img src="../images/guarda.jpg" alt="Guarda de Helados">
+    <main class="contacto">
         <form action="Contacto">
-            <h2>Contactanos</h2>
-            <label for="Nombre y Apellido">Nombre y Apellido</label>
-            <input type="text">
-            <label for="Correo Electrónico">Correo Electrónico</label>
-            <input type="email">
-            <label for="Teléfono">Teléfono</label>
-            <input type="number">
-            <label for="Mensaje">Indique su mensaje</label>
-            <textarea name="Mensaje" id="" cols="30" rows="10"></textarea>
+            <h2 class="tituloFormulario">Contactanos</h2>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1"> - </span>
+                <input type="text" class="form-control" placeholder="Indique Nombre y Apellido"
+                    aria-label="Nombre y Apellido" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="email" class="form-control" placeholder="Indique su correo electrónico" aria-label="Email"
+                    aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1"> # </span>
+                <input type="number" class="form-control" placeholder="Indique Su Teléfono" aria-label="Teléfono"
+                    aria-describedby="basic-addon1">
+            </div>
+            <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Indique su Mensaje"></textarea>
             <input type="submit">
-            <img src="../images/guarda.jpg" alt="Guarda de Helados">
         </form>
+        <div>
+            <img src="../images/caratula2.jpg" alt="Foto de Helado">
+        </div>
     </main>
 
-    <footer>
+    <footer class="contactoFooter">
         <ul>
             <li>
                 <a href="https:/www.facebook.com" target="_blank">
@@ -71,7 +81,9 @@
             </li>
         </ul>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
