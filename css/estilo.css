@@ -117,13 +117,13 @@ form {
 
 .contacto div img {
     margin-top: 25px;
-    max-width: 200%;
+    max-width: 160%;
     height: auto;
 }
 
 @media (max-width: 900px) {
    .contacto{
-    grid-template-columns: 85% 0%;
+    grid-template-columns: 95% 0%;
    }
    .contacto div img {
     display: none;
@@ -175,8 +175,53 @@ p {
 }
 
 #sobre_nosotros {
-    display: flex;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    font-size: 20px;
 }
+
+#sobre_nosotros img {
+    width: 98%;
+    height: auto;
+}
+
+@media (max-width: 1450px) {
+    #sobre_nosotros {
+        font-size: 18px;
+        grid-template-columns: 70% 30%;
+    }
+}
+
+@media (max-width: 1000px) {
+    #sobre_nosotros {
+        font-size: 16px;
+        grid-template-columns: 60% 40%;
+    }
+}
+
+@media (max-width: 875px) {
+    #sobre_nosotros {
+        font-size: 14px;
+        grid-template-columns: 55% 45%;
+    }
+}
+
+@media (max-width: 730px) {
+    #sobre_nosotros {
+        font-size: 10px;
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media (max-width: 550px) {
+    #sobre_nosotros img {
+        display: none
+    }
+    #sobre_nosotros {
+        grid-template-columns: 100%;
+    }
+}
+
 
 .productos {
     display: flex;
